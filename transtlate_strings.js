@@ -18,12 +18,37 @@
     // };
 
     // Czech to Romanian
+    // const translations = {
+    //     'Akce': 'Promoție',
+    //     'Novinka': 'Noutate',
+    //     'Tip': 'Recomandare',
+    //     'Detail': 'Detalii',
+    // };
+
+    // Czech to Greek
+    // const translations = {
+    //     'Akce': 'Προσφορά',
+    //     'Novinka': 'Νέο',
+    //     'Tip': 'Πρόταση',
+    //     'Detail': 'Λεπτομέρειες',
+    // };
+
+    // Czech to Bulgarian
+    // const translations = {
+    //     'Akce': 'Промоция',
+    //     'Novinka': 'Ново',
+    //     'Tip': 'Препоръка',
+    //     'Detail': 'Детайли',
+    // };
+
+    // Czech to Slovenian
     const translations = {
-        'Akce': 'Promoție',
-        'Novinka': 'Noutate',
-        'Tip': 'Recomandare',
-        'Detail': 'Detalii',
+        'Akce': 'Akcija',
+        'Novinka': 'Novost',
+        'Tip': 'Nasvet',
+        'Detail': 'Podrobnosti',
     };
+
 
 
 
