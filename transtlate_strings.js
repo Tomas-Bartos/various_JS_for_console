@@ -1,12 +1,31 @@
 (function replaceTextStrings() {
-    // Define strings to search and their replacements
+    // Define strings to search and their replacements, uncoment desired language
+
+    // Czech to Croatian
+    // const translations = {
+    //     'Akce': 'Akcija',
+    //     'Novinka': 'Novosti',
+    //     'Tip': 'Preporuka',
+    //     'Detail': 'Detalji',
+    // };
+
+    // Czech to Hungarian
+    // const translations = {
+    //     'Akce': 'Akció',
+    //     'Novinka': 'Újdonság',
+    //     'Tip': 'Tipp',
+    //     'Detail': 'Részletek',
+    // };
+
+    // Czech to Romanian
     const translations = {
-        // Czech to Croatian
-        'Akce': 'Akcija',
-        'Novinka': 'Novosti',
-        'Tip': 'Preporuka',
-        'Detail': 'Detalji',
+        'Akce': 'Promoție',
+        'Novinka': 'Noutate',
+        'Tip': 'Recomandare',
+        'Detail': 'Detalii',
     };
+
+
 
     // Get the target container element
     const container = document.querySelector('#incomaker_content_body');
