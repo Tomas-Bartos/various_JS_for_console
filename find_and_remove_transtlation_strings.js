@@ -1,7 +1,7 @@
 // This function finds and remove all strings created by automatic transtlation by Edge browser.
 // 1. Transtlate your HTML file in new window of Edge browser. 
 // 2. Then run the script in the console
-// 3. Copy and use transtlated HTML
+// 3. Copy and use translated HTML
 
 (function removeMicrosoftTranslatorAttributes() {
   const html = document.body.innerHTML;
