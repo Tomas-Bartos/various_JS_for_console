@@ -6,7 +6,7 @@
 (function removeMicrosoftTranslatorAttributes() {
   const html = document.body.innerHTML;
 
-  // Find all occurencies of _msthash="103"; _msttexthash="94913"; _msthidden="3", all numbers in the "" are counted for
+  // Find all occurencies of _msthash="103"; _msttexthash="94913"; _msthidden="3", mstmutation="" all numbers in the "" are counted for
   const matches = html.match(/\s*_(?:msthash|msttexthash|msthidden|istranslated|mstmutation)="\d+"/g);
 
   // If found count them and then delete
