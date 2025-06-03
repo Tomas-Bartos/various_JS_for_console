@@ -2,6 +2,7 @@
     // Define translations for supported languages
     const languages = {
         'hr': {
+            '__salutation2||"" __,': '__salutation2||""__,',
             'Akce': 'Akcija',
             'Novinka': 'Novosti',
             'Tip': 'Preporuka',
@@ -30,6 +31,7 @@
             'Pátek': 'Petak',
         },
         'hu': {
+            '__salutation2||"" __,': '__salutation2||""__,',
             'Akce': 'Akció',
             'Novinka': 'Újdonság',
             'Tip': 'Tipp',
@@ -58,6 +60,7 @@
             'Pátek': 'Péntek',
         },
         'ro': {
+            '__salutation2||"" __,': '__salutation2||""__,',
             'Akce': 'Promoție',
             'Novinka': 'Noutate',
             'Tip': 'Recomandare',
@@ -86,6 +89,7 @@
             'Pátek': 'Vineri',
         },
         'el': {
+            '__salutation2||"" __,': '__salutation2||""__,',
             'Akce': 'Προσφορά',
             'Novinka': 'Νέο',
             'Tip': 'Συμβουλή',
@@ -114,6 +118,7 @@
             'Pátek': 'Παρασκευή',
         },
         'bg': {
+            '__salutation2||"" __,': '__salutation2||""__,',
             'Akce': 'Промоция',
             'Novinka': 'Ново',
             'Tip': 'Съвет',
@@ -142,6 +147,7 @@
             'Pátek': 'Петък',
         },
         'sl': {
+            '__salutation2||"" __,': '__salutation2||""__,',
             'Akce': 'Akcija',
             'Novinka': 'Novost',
             'Tip': 'Nasvet',
@@ -170,6 +176,7 @@
             'Pátek': 'Petek',
         },
         'de': {
+            '__salutation2||"" __,': '__salutation2||""__,',
             'Akce': 'Aktion',
             'Novinka': 'Neuheit',
             'Tip': 'Tipp',
@@ -198,6 +205,7 @@
             'Pátek': 'Freitag',
         },
         'sk': {
+            '__salutation2||"" __,': '__salutation2||""__,',
             'Akce': 'Akcia',
             'Novinka': 'Novinka',
             'Tip': 'Tip',
@@ -228,6 +236,7 @@
             'Pátek': 'Piatok',
         },
         'pl': {
+            '__salutation2||"" __,': '__salutation2||""__,',
             'Akce': 'Promocja',
             'Novinka': 'Nowość',
             'Tip': 'Porada',
@@ -256,6 +265,7 @@
             'Pátek': 'Piątek',
         },
         'it': {
+            '__salutation2||"" __,': '__salutation2||""__,',
             'Akce': 'Promozione',
             'Novinka': 'Novità',
             'Tip': 'Consiglio',
@@ -284,6 +294,7 @@
             'Pátek': 'Venerdì',
         },
         'fr': {
+            '__salutation2||"" __,': '__salutation2||""__,',
             'Akce': 'Promotion',
             'Novinka': 'Nouveauté',
             'Tip': 'Conseil',
@@ -312,6 +323,7 @@
             'Pátek': 'Vendredi',
         },
         'es': {
+            '__salutation2||"" __,': '__salutation2||""__,',
             'Akce': 'Promoción',
             'Novinka': 'Novedad',
             'Tip': 'Consejo',
