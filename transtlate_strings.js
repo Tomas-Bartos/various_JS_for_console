@@ -371,6 +371,55 @@
         return;
     }
 
+    // Function to replace text in text nodes
+    function replaceTextInNode(node, translations) {
+        if (node.nodeType === 3) { // Text node
+            let text = node.nodeValue;
+            let count = 0;
+            for (const [original, replacement] of Object.entries(translations)) {
+                const regex = new RegExp(original, 'g');
+                const matches = text.match(regex);
+                if (matches) {
+                    count += matches.length;
+                    text = text.replace(regex, replacement);
+                }
+            }
+            node.nodeValue = text;
+            return count;
+        } else if (node.nodeType === 1) { // Element node
+            let totalCount = 0;
+            node.childNodes.forEach(child => {
+                totalCount += replaceTextInNode(child, translations);
+            });
+            return totalCount;
+        }
+        return 0;
+    }
+
+    // Replace text in all text nodes within the container
+    const totalReplacements = replaceTextInNode(container, translations);
+
+    // Log how many replacements were made
+    console.log(`Jazyk: ${langCode.toUpperCase()}, počet nahrazených výrazů:`, totalReplacements);
+})();
+
+// for simple replacement
+(function replaceTextStrings() {
+    // Define strings to search and their replacements
+    const translations = {
+        'Akce': 'Promo',
+        'Novinka': 'New',
+        'Tip': 'Recommendation',
+        'Detail': 'Detalji',
+    };
+
+    // Get the target container element
+    const container = document.querySelector('#incomaker_content_body');
+    if (!container) {
+        console.log('Element #incomaker_content_body not found.');
+        return;
+    }
+
     // Get the HTML content of the container
     let html = container.innerHTML;
     let count = 0;
@@ -389,5 +438,5 @@
     container.innerHTML = html;
 
     // Log how many replacements were made
-    console.log(`Jazyk: ${langCode.toUpperCase()}, počet nahrazených výrazů:`, count);
+    console.log('Total replacements:', count);
 })();
